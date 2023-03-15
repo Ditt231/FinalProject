@@ -1,0 +1,22 @@
+Proses order makanan/minuman via online
+
+READ and WRITE "nama" with string
+READ and WRITE "alamat" with string
+READ and WRITE "no_telepon" with number
+STORE "nama" with "adit"
+STORE "alamat" with "Kota Bandung"
+STORE "no_telepon" with 082311
+STORE "totalHarga" with 0
+STORE "namaMakanan" with "ramen"
+STORE "jumlah" with 2
+STORE "saldo" with 20000
+
+IF "namaMakanan" equal "ramen"
+  STORE "totalHarga" with "jumlah" times 10000
+ELSE
+  STORE "totalHarga" with "jumlah" times 20000 
+
+IF "saldo" more than or equal "totalHarga"
+  PRINT "berhasil membeli makanan"
+ELSE 
+  PRINT "gagal membeli makanan karena saldo kurang"
